@@ -1,0 +1,7 @@
+\.junk/
+.DS_Store
+# Private Modules shouldnt require src like 
+# public repos often keep.
+src/
+
+node_modules/

@@ -1,0 +1,16 @@
+{
+  presets: [
+    '@babel/preset-flow',
+    [
+      '@babel/preset-env',
+      {
+        useBuiltIns: 'usage',
+        shippedProposals: true,
+        targets: {
+          node: '10',
+        },
+      },
+    ],
+  ],
+  plugins: ['@babel/plugin-proposal-class-properties'],
+}
