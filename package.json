@@ -1,5 +1,5 @@
 {
-  "name": "@auroradao/app-name",
+  "name": "async_hooks_repo",
   "version": "0.0.1",
   "main": "dist/index.js",
   "author": "Braden R. Napier ",
