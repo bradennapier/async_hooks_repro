@@ -27,7 +27,6 @@ export default class AsyncContext<CID: string> {
     };
     this.states.set(eid, state);
     return callback(...args);
-    // this.states.delete(eid);
   }
 
   complete(id: number) {
